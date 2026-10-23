@@ -11,7 +11,7 @@ public class HookTest {
 	static WebDriver driver;
 	@Before
 	public void setUp() {
-	System.setProperty("webdriver.chrome.driver","D:\\Selenuim\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","D:\\Selenuim\\driver\\chromedriver.exe");
 	driver=new ChromeDriver();
 	driver.manage().window().maximize();
 }
