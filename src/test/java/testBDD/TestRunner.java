@@ -7,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/testPracticeBDD",
-        glue = "testPracticeBDD",
+        features = "src/test/java/googlesearch",
+        glue = "googlesearch",
        //tags="@testcaseno3",
         plugin = {"pretty"}
        
